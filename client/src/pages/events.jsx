@@ -18,7 +18,7 @@ export default function AllEvents() {
       </header>
 
       {/* Events List */}
-      <div className="space-y-6">
+      <div className="space-y-6 ">
         {Array.from({ length: 10 }).map((_, index) => (
           <Card key={index} className="bg-gray-800 text-white shadow-md rounded-lg">
             <CardHeader>

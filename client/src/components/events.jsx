@@ -9,7 +9,7 @@ import {Drawer,DrawerClose,DrawerContent,DrawerDescription,DrawerFooter,DrawerHe
 export function Events() { 
   return (
 
-    <Carousel opts={{ align: "start",}} className="w-full max-w-sm mt-7 relative bg-slate-400">
+    <Carousel opts={{ align: "start",}} className="w-full mt-7 relative">
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">

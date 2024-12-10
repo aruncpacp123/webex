@@ -4,10 +4,10 @@ import {Card,CardContent,CardDescription,CardFooter,CardHeader,CardTitle,} from 
 import image from "@/assets/dale.jpg.webp"
 export default function Carousels() {
   return (
-    <Carousel opts={{ align: "start",}} className="w-full max-w-sm relative">
+    <Carousel opts={{ align: "start",}} className="w-full relative">
         <CarouselContent>
             {Array.from({ length: 5 }).map((_, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={index} className="">
                     <div className="p-1 mt-14">
                         <Card>
                             <img src={image} alt="Description of the image" />
